@@ -1,0 +1,16 @@
+from ast import If, Str
+import string
+
+
+# Write a Python program that calculatesa dog's age in dog's years.
+# For the first two years, a dog year is equal to 10.5 human years. After that, each dog year equals 4 human years.
+
+   
+print('Please input dog age') 
+   
+age = int(input())
+if age <= 2:
+    print(10.5 * age)
+else :
+    print (21 + 4 * (age-2))    
+    
